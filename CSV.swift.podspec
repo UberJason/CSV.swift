@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/yaslab/CSV.swift.git', :tag => s.version }
 
   s.osx.deployment_target = '10.9'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
-  s.watchos.deployment_target = '2.0'
+  s.watchos.deployment_target = '4.0'
 
   s.module_name = 'CSV'
   s.source_files = 'Sources/CSV/*.swift'
